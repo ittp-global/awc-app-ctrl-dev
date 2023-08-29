@@ -4,9 +4,7 @@
     ],
     "compilerOptions": {
         "strict": true,
-        "include": [
-            "./src/**/*"
-        ],
+      
         "allowJs": true,
         "esModuleInterop": true,
         "lib": [
