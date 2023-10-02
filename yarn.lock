@@ -52,14 +52,14 @@
     lodash.camelcase "^4.3.0"
     rc-util "^5.31.1"
 
-"@ant-design/pro-field@^2.5.2":
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-field/-/pro-field-2.12.1.tgz#a8a982bad879b1ff08f1c0c3f797b22772c03d51"
-  integrity sha512-zIpuGxee1XqI95Hj6EjnaseerCUFLOHEpZDagza6AZiKsdEo9eSNP8ZNOfE0G4e29df4lLxOG8lNgurkkNyXog==
+"@ant-design/pro-field@2.12.9":
+  version "2.12.9"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-field/-/pro-field-2.12.9.tgz#ec816ce8b6537c11942a23d189c40604c6bfb715"
+  integrity sha512-9ixs+KL4odHPsk0bnetqzMm1Y/0MEMT4n2ogFSpMRjSAVm4ivgRRtfRuXkqR0uhfdXTMUqkldq0VdVweHXIiog==
   dependencies:
     "@ant-design/icons" "^5.0.0"
-    "@ant-design/pro-provider" "2.12.2"
-    "@ant-design/pro-utils" "2.14.1"
+    "@ant-design/pro-provider" "2.13.1"
+    "@ant-design/pro-utils" "2.14.6"
     "@babel/runtime" "^7.18.0"
     "@chenshuai2144/sketch-color" "^1.0.8"
     classnames "^2.3.2"
@@ -68,32 +68,29 @@
     omit.js "^2.0.2"
     rc-util "^5.4.0"
     swr "^2.0.0"
-    use-json-comparison "^1.0.5"
 
-"@ant-design/pro-form@2.10.1":
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-form/-/pro-form-2.10.1.tgz#b58508f768d9099ec35f886430b083d2a0443af0"
-  integrity sha512-OslUCqkITJHE1c6Oj2hIddvSiehPgkTFnNjCX99Ip7lJ8NIkT30UEvTM79jzJeue+y1lqLF8YH0HX4ajI3apIw==
+"@ant-design/pro-form@^2.21.0":
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-form/-/pro-form-2.21.0.tgz#dcbdb8e85a377de015d244b8f2e4b5412c3eb9e0"
+  integrity sha512-3jR0Us7k50Gkxg1hHbnWlZKDzfen8le/XxtK0JqBA2mM7B+y26ieXfaxISD/Dptt4o0Zk57wcquSJHOfhR53wQ==
   dependencies:
     "@ant-design/icons" "^5.0.0"
-    "@ant-design/pro-field" "^2.5.2"
-    "@ant-design/pro-provider" "^2.7.0"
-    "@ant-design/pro-utils" "^2.7.2"
+    "@ant-design/pro-field" "2.12.9"
+    "@ant-design/pro-provider" "2.13.1"
+    "@ant-design/pro-utils" "2.14.6"
     "@babel/runtime" "^7.18.0"
     "@chenshuai2144/sketch-color" "^1.0.7"
     "@umijs/use-params" "^1.0.9"
-    classnames "^2.2.6"
+    classnames "^2.3.2"
     lodash.merge "^4.6.2"
     omit.js "^2.0.2"
     rc-resize-observer "^1.1.0"
     rc-util "^5.0.6"
-    use-json-comparison "^1.0.5"
-    use-media-antd-query "^1.1.0"
 
-"@ant-design/pro-provider@2.12.2", "@ant-design/pro-provider@^2.7.0":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-provider/-/pro-provider-2.12.2.tgz#e1e07df7cdb1c5e3c277793873ab22816d5b8c3d"
-  integrity sha512-1ocfp56wcVKduRbDedLsBO7enEMh4i5ckq1sPCBaEb9M4vrZ2haKiYDe51qTBviUvxSCPAwNmIyluozmWnPwwg==
+"@ant-design/pro-provider@2.13.1":
+  version "2.13.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-provider/-/pro-provider-2.13.1.tgz#98b18746e7512728760b5b7efb24d611ee0506c4"
+  integrity sha512-6oj2X2Rbr2tQ9lZeTX/g/Rojk1QypvewaDyAjQ18xbF4oL//zEWiDD/nvm0ng+K6IigyFYixkEVqf5NcOCSYEQ==
   dependencies:
     "@ant-design/cssinjs" "^1.11.1"
     "@babel/runtime" "^7.18.0"
@@ -101,18 +98,19 @@
     rc-util "^5.0.1"
     swr "^2.0.0"
 
-"@ant-design/pro-utils@2.14.1", "@ant-design/pro-utils@^2.7.2":
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/@ant-design/pro-utils/-/pro-utils-2.14.1.tgz#84ab22a0d53c6a4166666fa4218dc67e3d980aef"
-  integrity sha512-8K/GSNuy5XPGEPrEKI2eftGKboQXdefW3xBRG6pRZ5dIgZkTYJcSxbsHVlDrK+AaqswmoS4+eiGuqChFkapsMg==
+"@ant-design/pro-utils@2.14.6":
+  version "2.14.6"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-utils/-/pro-utils-2.14.6.tgz#77c5447724f76ba581be7ca2fe932a7aaf7ddda1"
+  integrity sha512-UO3BmooJWR+qRwh5xwbRNtpCLNGZdo7dRVIkbCEB/QiA06kRTbnxB6lWL02Pfjp9xraiThEmxmq8oLSjmG/Uhg==
   dependencies:
     "@ant-design/icons" "^5.0.0"
-    "@ant-design/pro-provider" "2.12.2"
+    "@ant-design/pro-provider" "2.13.1"
     "@babel/runtime" "^7.18.0"
     classnames "^2.3.2"
     dayjs "^1.11.9"
     lodash.merge "^4.6.2"
     rc-util "^5.0.6"
+    safe-stable-stringify "^2.4.3"
     swr "^2.0.0"
 
 "@ant-design/react-slick@~1.0.0":
@@ -1765,7 +1763,7 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@headlessui/react@latest":
+"@headlessui/react@^1.7.17":
   version "1.7.17"
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.7.17.tgz#a0ec23af21b527c030967245fd99776aa7352bc6"
   integrity sha512-4am+tzvkqDSSgiwrsEpGWqgGo9dz8qU5M3znCkC4PgkpY4HcCZzEDEvozltGGGHIKl9jbXbZPSH5TWn4sWJdow==
@@ -4082,7 +4080,7 @@ attr-accept@^2.2.2:
   resolved "https://registry.yarnpkg.com/attr-accept/-/attr-accept-2.2.2.tgz#646613809660110749e92f2c10833b70968d929b"
   integrity sha512-7prDjvt9HmqiZ0cl5CRjtS84sEyhsHP2coDkaZKRKVfCDo9s7iw7ChVmar78Gu9pC4SoR/28wFu/G5JJhTnqEg==
 
-auth-ts@1.0.6:
+auth-ts@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/auth-ts/-/auth-ts-1.0.6.tgz#e4eac9c6f6c540eebc1d7017fb6ce0f57a53303e"
   integrity sha512-PElojdUovhCh7iS90zYjwVCmKZxkR+VEHK+02nJDSnBtYYCg4h4+DXLHAa8cZk8aaHciiSw1uGb1JaB+qTI0Yg==
@@ -11200,7 +11198,7 @@ nwsapi@^2.2.0:
   resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.7.tgz#738e0707d3128cb750dddcfe90e4610482df0f30"
   integrity sha512-ub5E4+FBPKwAZx0UwIQOjYWGHTEq5sPqHQNRN8Z9e4A7u3Tj1weLJsL59yH9vmvqEtBHaOmT6cYQKIZOxp35FQ==
 
-oauth-sign@0.9.0, oauth-sign@^0.9.0:
+oauth-sign@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
@@ -14145,6 +14143,11 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
+safe-stable-stringify@^2.4.3:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.3.tgz#138c84b6f6edb3db5f8ef3ef7115b8f55ccbf886"
+  integrity sha512-e2bDA2WJT0wxseVd4lsDP4+3ONX6HpMXQa1ZhFQ7SU+GjvORCmShbCMltrtIDfkYhVHrOcPtj+KhmDBdPdZD1g==
+
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -15828,16 +15831,6 @@ url@^0.11.0:
   dependencies:
     punycode "^1.4.1"
     qs "^6.11.0"
-
-use-json-comparison@^1.0.5:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/use-json-comparison/-/use-json-comparison-1.0.6.tgz#a012bbc258ce745db1f56745dc653f575226cb21"
-  integrity sha512-xPadt5yMRbEmVfOSGFSMqjjICrq7nLbfSH3rYIXsrtcuFX7PmbYDN/ku8ObBn3v8o/yZelO1OxUS5+5TI3+fUw==
-
-use-media-antd-query@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/use-media-antd-query/-/use-media-antd-query-1.1.0.tgz#f083ad7e292c1c0261b6bbfaac0edc3e0920d85d"
-  integrity sha512-B6kKZwNV4R+l4Rl11sWO7HqOay9alzs1Vp1b4YJqjz33YxbltBCZtt/yxXxkXN9rc1S7OeEL/GbwC30Wmqhw6Q==
 
 use-sync-external-store@^1.2.0:
   version "1.2.0"
